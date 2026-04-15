@@ -14,7 +14,8 @@ Steps:
 
 1. Load requirement + plan + design
 2. Generate atomic tasks
-3. Save to /docs/SDLC/artifacts/<req_id>/tasks.md
+3. Identify unit-testable tasks
+4. Save to /docs/SDLC/artifacts/<req_id>/tasks.md
 
 
 

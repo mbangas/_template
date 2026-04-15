@@ -11,6 +11,15 @@ Agile refinement, also known as backlog grooming, is a crucial process in agile 
 ## How It Works
 
 
+### Pre-conditions
+- Read `/docs/SDLC/requirements/<req_id>.md`
+- Verify the file exists and has valid frontmatter (`id`, `title`, `status`)
+- Verify that the required sections are filled in (Description, Functional Requirements, Acceptance Criteria)
+- If `status` is not `draft`, warn the user that this requirement has already been processed and ask for confirmation before proceeding
+
+
+### Refinement Lifecycle
+
 The agent must internally follow this lifecycle and matches a skill to each step:
 
 - **Input**: The agent receives a <REQ-ID>

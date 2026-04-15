@@ -10,9 +10,9 @@ Testing is a crucial phase in the Software Development Life Cycle (SDLC) that in
 ## How It Works
 
 1. Load requirement + plan + design + tasks
-2. Generate test cases in /tests using `rules-generate-unit-tests` agent
-3. Execute tests and report results
-
+2. Generate test cases in /tests using `rules-generate-unit-tests` skill
+3. Execute tests identified in the tasks as unit-testable, and report results. Only set status to tested if all tests pass
+4. Save to /docs/SDLC/artifacts/<req_id>/tests-result.md
   
 ## After Completion
 - Update the requirement file `/docs/SDLC/requirements/<req_id>.md`:
