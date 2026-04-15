@@ -19,3 +19,7 @@ Design is a critical phase in the Software Development Life Cycle (SDLC) that in
    - APIs
    - Interactions
 
+## After Completion
+- Update the requirement file `/docs/SDLC/requirements/<req_id>.md`:
+  - Set `status: designed` in the frontmatter
+  - Set `updated:` to the current date

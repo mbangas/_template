@@ -18,5 +18,8 @@ Steps:
 
 
 
-
+## After Completion
+- Update the requirement file `/docs/SDLC/requirements/<req_id>.md`:
+  - Set `status: tasked` in the frontmatter
+  - Set `updated:` to the current date
 

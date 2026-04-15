@@ -1,6 +1,11 @@
-# REQ-ID
+---
+id: REQ-XXX
+title: 
+status: draft
+created: DD/MM/YYYY
+updated: DD/MM/YYYY
+---
 
-## Title
 
 ## Description
 

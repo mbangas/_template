@@ -14,3 +14,9 @@ Testing is a crucial phase in the Software Development Life Cycle (SDLC) that in
 3. Execute tests and report results
 
   
+## After Completion
+- Update the requirement file `/docs/SDLC/requirements/<req_id>.md`:
+  - Set `status: tested` in the frontmatter
+  - Set `updated:` to the current date
+
+  

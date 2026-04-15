@@ -62,3 +62,8 @@ For each issue:
 Focus on: ${input:focus:Any specific areas to emphasize in the review?}
 
 Be constructive and educational in your feedback.
+
+## After Completion
+- Update the requirement file `/docs/SDLC/requirements/<req_id>.md`:
+  - Set `status: reviewed` in the frontmatter
+  - Set `updated:` to the current date

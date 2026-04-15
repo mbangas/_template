@@ -15,7 +15,7 @@ The agent must internally follow this lifecycle and matches a skill to each step
 
 - **Input**: The agent receives a <REQ-ID>
 - **Plan** → `sdlc-plan` → Output: Implementation plan for the requirement
-- **Define** → `sdlc-define` → Output: List of tasks with estimates
-- **tasks** → `sdlc-tasks` → Output: Task breakdown with dependencies and priorities
+- **Design** → `sdlc-design` → Output: List of tasks with estimates
+- **Tasks** → `sdlc-tasks` → Output: Task breakdown with dependencies and priorities
 
 

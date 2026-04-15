@@ -13,6 +13,13 @@ Agile build is a software development approach that emphasizes flexibility, coll
 
 The agent must internally follow this lifecycle and matches a skill to each step:
 
+
+### Pre-conditions
+
+- Check if the requirement is tasked
+
+### Build Lifecycle
+
 - **Input**: The agent receives a <REQ-ID>
 - **Implement** → `sdlc-implement` → Output: Code implementation for the requirement
 - **Test** → `sdlc-test` → Output: Test cases and results for the implemented code
