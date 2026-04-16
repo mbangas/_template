@@ -122,6 +122,18 @@ Cada transição de estado é feita automaticamente pelo skill correspondente, a
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+## Prompts para Developers
+
+Para facilitar o acesso ao ciclo SDLC diretamente no Copilot Chat, estão disponíveis três prompts reutilizáveis em `.github/prompts/`:
+
+| Prompt | Descrição | Skill invocado |
+|---|---|---|
+| `refinement` | Inicia o refinamento de um requisito | `agile-refinement` |
+| `build` | Executa a fase de construção | `agile-build` |
+| `review` | Executa a fase de documentação | `agile-review` |
+
+Para utilizar, abrir o Copilot Chat, selecionar o prompt pretendido e indicar o `REQ_ID` quando solicitado. Os prompts delegam integralmente para os skills correspondentes, garantindo o mesmo comportamento que invocar o skill diretamente.
+
 ## Como Começar
 
 1. Clonar este repositório como base para um novo projeto
@@ -130,7 +142,7 @@ Cada transição de estado é feita automaticamente pelo skill correspondente, a
    cp docs/SDLC/requirements/_template.md docs/SDLC/requirements/REQ-001.md
    ```
 3. Preencher o requisito com a descrição da issue
-4. Invocar o skill `agile-refinement` para iniciar o ciclo
+4. Usar o prompt `refinement` no Copilot Chat (ou invocar o skill `agile-refinement` diretamente) para iniciar o ciclo
 
 ## Quem Mantém
 
