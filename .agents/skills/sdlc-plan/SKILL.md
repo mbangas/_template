@@ -31,11 +31,8 @@ Planning is a crucial phase in the Software Development Life Cycle (SDLC) that i
    - Major components
    - Implementation phases
    - Risks
-
-
-## After Completion
-- Update the requirement file `/docs/SDLC/requirements/<req_id>.md`:
-  - Set `status: planned` in the frontmatter
-  - Set `updated:` to the current date
+7. **[MANDATORY]** Update the requirement file `/docs/SDLC/requirements/<req_id>.md`:
+   - Set `status: planned` in the frontmatter
+   - Set `updated:` to the current date
 
   

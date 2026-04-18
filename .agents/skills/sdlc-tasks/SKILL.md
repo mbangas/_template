@@ -16,11 +16,7 @@ Steps:
 2. Generate atomic tasks
 3. Identify unit-testable tasks
 4. Save to /docs/SDLC/artifacts/<req_id>/tasks.md
-
-
-
-## After Completion
-- Update the requirement file `/docs/SDLC/requirements/<req_id>.md`:
-  - Set `status: tasked` in the frontmatter
-  - Set `updated:` to the current date
+5. **[MANDATORY]** Update the requirement file `/docs/SDLC/requirements/<req_id>.md`:
+   - Set `status: tasked` in the frontmatter
+   - Set `updated:` to the current date
 
